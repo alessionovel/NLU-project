@@ -1,0 +1,381 @@
+[
+    {
+        "config": {
+            "experiment_name": "Baseline_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 300,
+            "lr": 1.0,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 147.35,
+            "test_ppl": 143.06,
+            "best_epoch": 23,
+            "stopped_early": true,
+            "epochs_ran": 33
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 300,
+            "lr": 3,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 142.44,
+            "test_ppl": 137.28,
+            "best_epoch": 9,
+            "stopped_early": true,
+            "epochs_ran": 19
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 400,
+            "lr": 3,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 139.83,
+            "test_ppl": 135.32,
+            "best_epoch": 8,
+            "stopped_early": true,
+            "epochs_ran": 18
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 600,
+            "lr": 3,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 139.27,
+            "test_ppl": 135.78,
+            "best_epoch": 6,
+            "stopped_early": true,
+            "epochs_ran": 16
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 500,
+            "lr": 2,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 139.49,
+            "test_ppl": 134.49,
+            "best_epoch": 8,
+            "stopped_early": true,
+            "epochs_ran": 18
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "WeightTying_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 300,
+            "lr": 1.0,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 125.07,
+            "test_ppl": 121.6,
+            "best_epoch": 52,
+            "stopped_early": true,
+            "epochs_ran": 62
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "WeightTying_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 500,
+            "lr": 2,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 128.29,
+            "test_ppl": 125.84,
+            "best_epoch": 18,
+            "stopped_early": true,
+            "epochs_ran": 28
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "WeightTying_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 500,
+            "lr": 1,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 130.0,
+            "test_ppl": 127.16,
+            "best_epoch": 35,
+            "stopped_early": true,
+            "epochs_ran": 45
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "WeightTying_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 400,
+            "lr": 1,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100
+        },
+        "results": {
+            "best_dev_ppl": 126.46,
+            "test_ppl": 122.7,
+            "best_epoch": 38,
+            "stopped_early": true,
+            "epochs_ran": 48
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "VariationalDropout_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 300,
+            "lr": 1,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.1
+        },
+        "results": {
+            "best_dev_ppl": 110.94,
+            "test_ppl": 107.59,
+            "best_epoch": 80,
+            "stopped_early": true,
+            "epochs_ran": 90
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "VariationalDropout_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 300,
+            "lr": 3,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.1
+        },
+        "results": {
+            "best_dev_ppl": 110.84,
+            "test_ppl": 108.26,
+            "best_epoch": 30,
+            "stopped_early": true,
+            "epochs_ran": 40
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "VariationalDropout_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 500,
+            "lr": 3,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.3
+        },
+        "results": {
+            "best_dev_ppl": 107.28,
+            "test_ppl": 104.76,
+            "best_epoch": 27,
+            "stopped_early": true,
+            "epochs_ran": 37
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "VariationalDropout_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "SGD",
+            "hidden_size": 800,
+            "lr": 3,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.4
+        },
+        "results": {
+            "best_dev_ppl": 109.38,
+            "test_ppl": 105.96,
+            "best_epoch": 23,
+            "stopped_early": true,
+            "epochs_ran": 33
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "NT-AvSGD_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "NT-AvSGD",
+            "hidden_size": 300,
+            "lr": 1.0,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.1,
+            "n-parameter": 5
+        },
+        "results": {
+            "best_dev_ppl": 110.25,
+            "test_ppl": 104.36,
+            "best_epoch": 85,
+            "stopped_early": true,
+            "epochs_ran": 95,
+            "NT-AvSGD_triggered_epoch": 72
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "NT-AvSGD_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "NT-AvSGD",
+            "hidden_size": 500,
+            "lr": 3,
+            "patience": 10,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.3,
+            "n-parameter": 5
+        },
+        "results": {
+            "best_dev_ppl": 106.77,
+            "test_ppl": 99.44,
+            "best_epoch": 25,
+            "stopped_early": true,
+            "epochs_ran": 35,
+            "NT-AvSGD_triggered_epoch": 28
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "NT-AvSGD_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "NT-AvSGD",
+            "hidden_size": 500,
+            "lr": 3,
+            "patience": 7,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.3,
+            "n-parameter": 3
+        },
+        "results": {
+            "best_dev_ppl": 107.07,
+            "test_ppl": 99.77,
+            "best_epoch": 29,
+            "stopped_early": true,
+            "epochs_ran": 36,
+            "NT-AvSGD_triggered_epoch": 27
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "NT-AvSGD_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "NT-AvSGD",
+            "hidden_size": 600,
+            "lr": 3,
+            "patience": 7,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.4,
+            "n-parameter": 3
+        },
+        "results": {
+            "best_dev_ppl": 106.45,
+            "test_ppl": 98.61,
+            "best_epoch": 27,
+            "stopped_early": true,
+            "epochs_ran": 34,
+            "NT-AvSGD_triggered_epoch": 12
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "NT-AvSGD_LSTM",
+            "model_type": "LSTM",
+            "optimizer": "NT-AvSGD",
+            "hidden_size": 600,
+            "lr": 3,
+            "patience": 7,
+            "batch_size": 64,
+            "clip": 5,
+            "n_epochs": 100,
+            "hid_dropout": 0.4,
+            "n-parameter": 5
+        },
+        "results": {
+            "best_dev_ppl": 107.3,
+            "test_ppl": 100.12,
+            "best_epoch": 26,
+            "stopped_early": true,
+            "epochs_ran": 33,
+            "NT-AvSGD_triggered_epoch": 28
+        }
+    }
+]

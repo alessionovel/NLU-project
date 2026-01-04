@@ -1,0 +1,178 @@
+[
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_Adam",
+            "model_name": "bert-base-uncased",
+            "optimizer": "Adam",
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.1
+        },
+        "results": {
+            "best_dev_loss": 2.9976,
+            "test_f1": 0.0,
+            "test_intent_acc": 0.7077,
+            "best_epoch": 14,
+            "stopped_early": true,
+            "epochs_ran": 24
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_Adam",
+            "model_name": "bert-base-uncased",
+            "optimizer": "Adam",
+            "lr": 5e-05,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.1
+        },
+        "results": {
+            "best_dev_loss": 0.0951,
+            "test_f1": 0.9496,
+            "test_intent_acc": 0.972,
+            "best_epoch": 13,
+            "stopped_early": true,
+            "epochs_ran": 23
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_Adam",
+            "model_name": "bert-base-uncased",
+            "optimizer": "Adam",
+            "lr": 5e-05,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.5
+        },
+        "results": {
+            "best_dev_loss": 0.0899,
+            "test_f1": 0.9553,
+            "test_intent_acc": 0.9731,
+            "best_epoch": 32,
+            "stopped_early": true,
+            "epochs_ran": 42
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_Adam",
+            "model_name": "bert-base-uncased",
+            "optimizer": "Adam",
+            "lr": 2e-05,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.5
+        },
+        "results": {
+            "best_dev_loss": 0.0824,
+            "test_f1": 0.9535,
+            "test_intent_acc": 0.9709,
+            "best_epoch": 33,
+            "stopped_early": true,
+            "epochs_ran": 43
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_Adam",
+            "model_name": "bert-base-uncased",
+            "optimizer": "Adam",
+            "lr": 5e-05,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.6
+        },
+        "results": {
+            "best_dev_loss": 0.0463,
+            "test_f1": 0.958,
+            "test_intent_acc": 0.9776,
+            "best_epoch": 55,
+            "stopped_early": true,
+            "epochs_ran": 65
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_Adam",
+            "model_name": "bert-base-uncased",
+            "optimizer": "Adam",
+            "lr": 5e-05,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.7
+        },
+        "results": {
+            "best_dev_loss": 0.0729,
+            "test_f1": 0.9574,
+            "test_intent_acc": 0.9776,
+            "best_epoch": 36,
+            "stopped_early": true,
+            "epochs_ran": 46
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_AdamW",
+            "model_name": "bert-base-uncased",
+            "optimizer": "AdamW",
+            "lr": 5e-05,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.6
+        },
+        "results": {
+            "best_dev_loss": 0.0954,
+            "test_f1": 0.9548,
+            "test_intent_acc": 0.9754,
+            "best_epoch": 19,
+            "stopped_early": true,
+            "epochs_ran": 29
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "BERT_IAS_AdamW",
+            "model_name": "bert-base-uncased",
+            "optimizer": "AdamW",
+            "lr": 2e-05,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "max_len": 50,
+            "dropout": 0.6
+        },
+        "results": {
+            "best_dev_loss": 0.0656,
+            "test_f1": 0.9548,
+            "test_intent_acc": 0.9776,
+            "best_epoch": 54,
+            "stopped_early": true,
+            "epochs_ran": 64
+        }
+    }
+]

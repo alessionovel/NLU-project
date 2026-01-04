@@ -1,0 +1,524 @@
+[
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 200,
+            "emb_size": 300,
+            "lr": 0.001,
+            "patience": 5,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1844,
+            "test_f1": 0.9197,
+            "test_intent_acc": 0.9395,
+            "best_epoch": 47,
+            "stopped_early": true,
+            "epochs_ran": 52
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 200,
+            "emb_size": 300,
+            "lr": 0.001,
+            "patience": 5,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_f1": 0.9631,
+            "test_f1": 0.9192,
+            "test_intent_acc": 0.9239,
+            "best_epoch": 48,
+            "stopped_early": true,
+            "epochs_ran": 53
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 200,
+            "emb_size": 300,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1857,
+            "test_f1": 0.9239,
+            "test_intent_acc": 0.9429,
+            "best_epoch": 59,
+            "stopped_early": true,
+            "epochs_ran": 69
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 300,
+            "emb_size": 400,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1869,
+            "test_f1": 0.9279,
+            "test_intent_acc": 0.9295,
+            "best_epoch": 30,
+            "stopped_early": true,
+            "epochs_ran": 40
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 400,
+            "emb_size": 800,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1962,
+            "test_f1": 0.9314,
+            "test_intent_acc": 0.9295,
+            "best_epoch": 28,
+            "stopped_early": true,
+            "epochs_ran": 38
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1796,
+            "test_f1": 0.9328,
+            "test_intent_acc": 0.9261,
+            "best_epoch": 31,
+            "stopped_early": true,
+            "epochs_ran": 41
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 800,
+            "emb_size": 1200,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.2031,
+            "test_f1": 0.9275,
+            "test_intent_acc": 0.9295,
+            "best_epoch": 13,
+            "stopped_early": true,
+            "epochs_ran": 23
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 500,
+            "emb_size": 900,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1741,
+            "test_f1": 0.9305,
+            "test_intent_acc": 0.9306,
+            "best_epoch": 21,
+            "stopped_early": true,
+            "epochs_ran": 31
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.0002,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1371,
+            "test_f1": 0.9283,
+            "test_intent_acc": 0.9462,
+            "best_epoch": 61,
+            "stopped_early": true,
+            "epochs_ran": 71
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1614,
+            "test_f1": 0.93,
+            "test_intent_acc": 0.9339,
+            "best_epoch": 33,
+            "stopped_early": true,
+            "epochs_ran": 43
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Baseline_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.002,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1955,
+            "test_f1": 0.9199,
+            "test_intent_acc": 0.9149,
+            "best_epoch": 12,
+            "stopped_early": true,
+            "epochs_ran": 22
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Bidirectional_IAS",
+            "optimizer": "Adam",
+            "hid_size": 200,
+            "emb_size": 300,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1246,
+            "test_f1": 0.9429,
+            "test_intent_acc": 0.9507,
+            "best_epoch": 38,
+            "stopped_early": true,
+            "epochs_ran": 48
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Bidirectional_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.118,
+            "test_f1": 0.9431,
+            "test_intent_acc": 0.9485,
+            "best_epoch": 9,
+            "stopped_early": true,
+            "epochs_ran": 19
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Bidirectional_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.117,
+            "test_f1": 0.9461,
+            "test_intent_acc": 0.9485,
+            "best_epoch": 18,
+            "stopped_early": true,
+            "epochs_ran": 28
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Bidirectional_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.0002,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5
+        },
+        "results": {
+            "best_dev_loss": 0.1094,
+            "test_f1": 0.9453,
+            "test_intent_acc": 0.9474,
+            "best_epoch": 39,
+            "stopped_early": true,
+            "epochs_ran": 49
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 200,
+            "emb_size": 300,
+            "lr": 0.001,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.3,
+            "out_dropout": 0.3
+        },
+        "results": {
+            "best_dev_loss": 0.1111,
+            "test_f1": 0.9393,
+            "test_intent_acc": 0.9586,
+            "best_epoch": 25,
+            "stopped_early": true,
+            "epochs_ran": 35
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.3,
+            "out_dropout": 0.3
+        },
+        "results": {
+            "best_dev_loss": 0.1134,
+            "test_f1": 0.9449,
+            "test_intent_acc": 0.9563,
+            "best_epoch": 17,
+            "stopped_early": true,
+            "epochs_ran": 27
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.4,
+            "out_dropout": 0.5
+        },
+        "results": {
+            "best_dev_loss": 0.1056,
+            "test_f1": 0.9477,
+            "test_intent_acc": 0.9586,
+            "best_epoch": 43,
+            "stopped_early": true,
+            "epochs_ran": 53
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 600,
+            "emb_size": 1000,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.5,
+            "out_dropout": 0.6
+        },
+        "results": {
+            "best_dev_loss": 0.097,
+            "test_f1": 0.9478,
+            "test_intent_acc": 0.9574,
+            "best_epoch": 29,
+            "stopped_early": true,
+            "epochs_ran": 39
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 800,
+            "emb_size": 1200,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.5,
+            "out_dropout": 0.6
+        },
+        "results": {
+            "best_dev_loss": 0.1064,
+            "test_f1": 0.9482,
+            "test_intent_acc": 0.9518,
+            "best_epoch": 26,
+            "stopped_early": true,
+            "epochs_ran": 36
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 800,
+            "emb_size": 1200,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.6,
+            "out_dropout": 0.7
+        },
+        "results": {
+            "best_dev_loss": 0.1111,
+            "test_f1": 0.9508,
+            "test_intent_acc": 0.9586,
+            "best_epoch": 34,
+            "stopped_early": true,
+            "epochs_ran": 44
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 800,
+            "emb_size": 1200,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.7,
+            "out_dropout": 0.8
+        },
+        "results": {
+            "best_dev_loss": 0.1121,
+            "test_f1": 0.9495,
+            "test_intent_acc": 0.9619,
+            "best_epoch": 46,
+            "stopped_early": true,
+            "epochs_ran": 56
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS",
+            "optimizer": "Adam",
+            "hid_size": 1000,
+            "emb_size": 1400,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.7,
+            "out_dropout": 0.8
+        },
+        "results": {
+            "best_dev_loss": 0.1114,
+            "test_f1": 0.9427,
+            "test_intent_acc": 0.9574,
+            "best_epoch": 28,
+            "stopped_early": true,
+            "epochs_ran": 38
+        }
+    },
+    {
+        "config": {
+            "experiment_name": "Dropout_IAS_AdamW",
+            "optimizer": "AdamW",
+            "hid_size": 800,
+            "emb_size": 1200,
+            "lr": 0.0005,
+            "patience": 10,
+            "batch_size": 128,
+            "n_epochs": 100,
+            "clip": 5,
+            "emb_dropout": 0.6,
+            "out_dropout": 0.7
+        },
+        "results": {
+            "best_dev_loss": 0.1051,
+            "test_f1": 0.9510,
+            "test_intent_acc": 0.9597,
+            "best_epoch": 33,
+            "stopped_early": true,
+            "epochs_ran": 43
+        }
+    }
+]
